@@ -28,7 +28,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader("Pereskaz2.pdf")
+loader = PyPDFLoader("meteo_rag.pdf")
 # pages = loader.load()
 
 docs = loader.load()
